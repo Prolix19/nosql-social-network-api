@@ -24,7 +24,7 @@ As this application is not deployed publicly, here is a walkthrough video that d
 [https://drive.google.com/file/d/1lj_G-2yVHIqxzqaEWJO3kpWJD60IJKzD/view](https://drive.google.com/file/d/1lj_G-2yVHIqxzqaEWJO3kpWJD60IJKzD/view)
 
 ## User Story
-This NoSQL-based social network APIe was created to meet the requirements of the following user story:
+This NoSQL-based social network API was created to meet the requirements of the following user story:
 ```
 AS A social media startup
 I WANT an API for my social network that uses a NoSQL database
