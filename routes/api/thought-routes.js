@@ -9,9 +9,12 @@ const {
     removeReaction
 } = require('../../controllers/thought-controllers');
 
-// Set up POST and DELETE routes at /api/thoughts/:thoughtId/reactions
+// Set up a POST route at /api/thoughts/:thoughtId/reactions
 router.route('/:thoughtId/reactions')
-    .post(addReaction)
+    .post(addReaction);
+
+// Set up a DELETE route at /api/thoughts/:thoughtId/reactions/:reactionId
+router.route('/:thoughtId/reactions/:reactionId')
     .delete(removeReaction);
 
 // Set up GET, PUT, DELETE routes at /api/thoughts/:id
