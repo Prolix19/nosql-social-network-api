@@ -1,6 +1,8 @@
 const res = require('express/lib/response');
 const {Thought, User} = require('../models');
 
+// All required thought and reaction controller functions are below.
+
 const thoughtController = {
     // Get all thoughts
     getAllThoughts(req, res) {

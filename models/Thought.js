@@ -43,6 +43,7 @@ const ThoughtSchema = new Schema({
         type: String,
         required: true
     },
+    // Reactions are included as a reaction field subdocument schema within the Thought model, as instructed.
     reactions: [ReactionSchema]},
     {
         toJSON: {

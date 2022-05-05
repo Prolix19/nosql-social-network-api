@@ -9,6 +9,8 @@ const {
     removeFriend
 } = require('../../controllers/user-controllers');
 
+//Routes are prefixed with /users thanks to ./index.js
+
 // Set up GET all and POST routes at /api/users
 router.route('/')
     .get(getAllUsers)

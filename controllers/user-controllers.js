@@ -1,5 +1,7 @@
 const {User} = require('../models');
 
+// Below I have created a controller function for each route required by the challenge.
+
 const userController = {
     // Get all users
     getAllUsers(req, res) {

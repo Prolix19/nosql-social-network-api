@@ -2,6 +2,7 @@ const { Schema, model } = require('mongoose');
 const dateFormat = require('../utils/dateFormat');
 
 const UserSchema = new Schema({
+    // Schema follows the criteria listed in the challenge
     username: {
         type: String,
         required: true,

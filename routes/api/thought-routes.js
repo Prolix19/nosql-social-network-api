@@ -9,6 +9,8 @@ const {
     removeReaction
 } = require('../../controllers/thought-controllers');
 
+//Routes are prefixed with /thoughts thanks to ./index.js
+
 // Set up a POST route at /api/thoughts/:thoughtId/reactions
 router.route('/:thoughtId/reactions')
     .post(addReaction);
