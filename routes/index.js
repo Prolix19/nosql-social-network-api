@@ -1,9 +1,12 @@
 const router = require('express').Router();
-const userRoutes = require("./user-routes");
-const thoughtRoutes = require("./thought-routes");
+// Import all of the API routes from /api/index.js
+const apiRoutes = require('./api');
 
-// Prefix the routes with /api
-router.use("/api", userRoutes);
-router.use("/api", thoughtRoutes);
+router.use('/api', apiRoutes);
+
+router.use((req, res) => {
+    console.log("Default route");
+    res.status(404).send('404 Not Found');
+});
 
 module.exports = router;
