@@ -40,7 +40,7 @@ SO THAT my website can handle large amounts of unstructured data
 2. Send requests to the routes at http://localhost:3001/api to begin using the API
 
 ## Tests
-There is no test suite created for this application
+There is no test suite created for this application.
 
 ## Author
 Application written by Daniel Birmingham ([GitHub profile](https://github.com/Prolix19/)).
